@@ -9,7 +9,16 @@
   <title>runes </title>
 </head>
 <body>
-  hello world
+  <div class="container">
+    <h1>Text to Runes Converter</h1>
+    <label for="inputText">Enter your text:</label>
+    <textarea id="inputText" rows="4" cols="50" class="input-text"></textarea>
+    <button id="convertBtn" class="convert-btn">Convert to Runes</button>
+    <h2>Translated Runes:</h2>
+    <p>Enjoy your runes:</p>
+    <div id="outputRunes" class="output-runes"></div>
+</div>
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="module" src="src/js/runeTranslate.js"></script>
 </body>
 </html>

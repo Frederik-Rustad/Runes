@@ -9,133 +9,67 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  background-color: #505050;
+  font-family: 'Arial', sans-serif;
 }
 
-footer {
-  margin-top: auto;
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #0b0a0a;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2 {
-  color: $heading-color;
-  font-weight: 700;
+h1 {
+  text-align: center;
+  color: #ffffff;
 }
 
-h3 {
-  color: white;
-  font-weight: 700;
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
 }
 
-p,
-a {
-  font-weight: 600;
-}
-
-.logo {
-  max-width: 400px;
-  height: auto;
-}
-
-.btn-login,
-.btn-auction,
-.bg-card {
-  background-color: $auction-primary-color;
-}
-
-.btn-secondary {
-  background-color: $beta;
-}
-
-.modal-header,
-.navbar-auction {
-  background-color: $primary;
-}
-
-.form-label {
-  color: $heading-color;
-}
-
-.profile-circle {
-  display: flex;
-  max-width: 50px;
-  max-height: 50px;
-  border-radius: 50%;
-  position: relative;
-  margin-left: 10px;
-}
-
-.profile-image {
+textarea {
   width: 100%;
-  height: auto;
-  border-radius: 50%;
-  z-index: 1;
+  max-width: 100%;
+  box-sizing: border-box; 
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #3e3d3d;
+  border-radius: 8px;
+  resize: none;
 }
 
-.profile-frame {
-  width: 120%;
-  position: absolute;
-  top: 44%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-}
-
-.edit-avatar {
-  max-width: 60px;
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(228, 85, 13);
+  color: #fff;
+  border: none;
+  border-radius: 15px;
   cursor: pointer;
 }
 
-.text-stroke {
-  text-shadow: $text-stroke;
+button:hover {
+  background-color: rgb(7, 111, 222);
 }
 
-.custom-shape-divider-bottom-1707191989 {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
+h2, p {
+  margin-top: 20px;
+  color: #ffffff;
 }
 
-.custom-shape-divider-bottom-1707191989 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 101px;
+.output-runes {
+  font-size: 1.2em;
+  padding: 10px;
+  border: 1px solid #3e3d3d;
+  border-radius: 8px;
+  min-height: 50px;
+  background-color: #fff;
 }
-
-.custom-shape-divider-bottom-1707191989 .shape-fill {
-  fill: #005467;
-}
-
-.border-grey {
-  border: solid 5px black;
-}
-
-.bid-img {
-  display: flex;
-  justify-self: end;
-  max-width: 250px;
-  height: auto;
-}
-
-.card-img {
-  max-width: 260px;
-  height: 260px;
-}
-
-.profile-page-circle {
-  display: flex;
-  width: 350px;
-  height: 350px;
-  border-radius: 50%;
-  position: relative;
-  margin-left: 10px;
-}
-
-#userAvatar {
-  width: 260px;
-  height: 260px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 15px #005467; 
-  }

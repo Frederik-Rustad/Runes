@@ -38,9 +38,12 @@ function translateToRunes(text) {
       'V': 'ᚹ',    
       'W': 'ᚹ',
       'X': 'ᚲᛊ',    // No corresponding rune, use same as k and s
-      'Y': 'ᛃ',  // Use the same rune as 'J'
-      'Z': 'ᛉ',
-      ' ': ' ',   // Keep spaces in the translation
+      'Y': 'ᛃ',    // Use the same rune as 'J'
+      'Z': 'ᛉ',    // Keep spaces in the translation
+      'Æ': ' ',
+      'Ø': ' ',
+      'Å': ' ',
+      ' ': ' ',   
   };
 
   // Convert each letter to its corresponding rune or remove it if no rune exists

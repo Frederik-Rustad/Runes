@@ -1,5 +1,5 @@
 {
-  "name": "runes",
+  "name": "rune",
   "version": "1.0.0",
   "description": "direct translation to runes.",
   "main": "index.js",

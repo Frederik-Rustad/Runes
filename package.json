@@ -1,7 +1,7 @@
 {
-  "name": "auction",
+  "name": "runes",
   "version": "1.0.0",
-  "description": "a website where users can add items to be bid on and bid on items other users have put up for auction.",
+  "description": "direct translation to runes.",
   "main": "index.js",
   "scripts": {
     "build": "sass src/scss:dist/css",

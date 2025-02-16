@@ -30,14 +30,14 @@ function translateToRunes(text) {
       'N': 'ᚾ',
       'O': 'ᛟ',
       'P': 'ᛈ',
-      'Q': '',    // No corresponding rune, remove from translation
+      'Q': '',    
       'R': 'ᚱ',
       'S': 'ᛊ',
       'T': 'ᛏ',
       'U': 'ᚢ',
-      'V': '',    // No corresponding rune, remove from translation
+      'V': 'ᚹ',    
       'W': 'ᚹ',
-      'X': '',    // No corresponding rune, remove from translation
+      'X': 'ᚲᛊ',    // No corresponding rune, use same as k and s
       'Y': 'ᛃ',  // Use the same rune as 'J'
       'Z': 'ᛉ',
       ' ': ' ',   // Keep spaces in the translation

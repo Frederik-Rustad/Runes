@@ -4,7 +4,7 @@
   "description": "direct translation to runes.",
   "main": "index.js",
   "scripts": {
-    "build": "sass src/scss/main.scss dist/css/style.css && xcopy index.html dist /Y",
+    "build": "sass src/scss/main.scss dist/css/style.css && cp index.html dist/",
     "watch": "sass src/scss:dist/css --watch",
     "start": "live-server",
     "dev": "npm-run-all --parallel watch start",
